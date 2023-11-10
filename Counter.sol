@@ -36,4 +36,7 @@ contract Sample {
         return counter.number;
     }
 
+     function get_counter_description() external view returns(string memory) {
+        return counter.description;
+    }
 }
